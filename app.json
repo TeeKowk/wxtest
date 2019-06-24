@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/define/define",
+    "pages/clean/clean"
+  ],
+  "window": {
+    "backgroundColor": "#112233",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序测试",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "imges/logo2_1.png",
+        "iconPath": "imges/logo2_2.png"
+      },
+      {
+        "pagePath": "pages/define/define",
+        "selectedIconPath": "imges/logo1_1.png",
+        "iconPath": "imges/logo1_2.png"
+      },
+      {
+        "pagePath": "pages/clean/clean",
+        "selectedIconPath": "imges/logo3_1.png",
+        "iconPath": "imges/logo3_2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "selectedIconPath": "imges/logo4_1.png",
+        "iconPath": "imges/logo4_2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

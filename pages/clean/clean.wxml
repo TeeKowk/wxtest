@@ -1,0 +1,9 @@
+<!---clean page--->
+<view>
+    <block wx:if="{{!cleanLog}}">
+      <text>本地存储未清零</text>
+    </block>
+    <block wx:else>
+        <text>本地存储已清零</text>
+    </block>
+</view>

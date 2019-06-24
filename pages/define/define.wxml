@@ -1,0 +1,16 @@
+<view>列表测试</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <view wx:for="{{room_info}}"  wx:key="index" >
+      <view class='content'>      
+        <view><text>{{item.room_id}}：{{item.room_name}}</text></view>
+        <view><input type='number' class='costwater' name='id.{{item.room_id}}_volt'></input></view>
+        <view><input type='number' class='costwater'name='id.{{item.room_id}}_water'></input></view>
+      </view>
+      <view><text>{{item.in_day}}/{{item.room_rent}}</text></view> 
+      <view><text>{{item.volt_rate}}/{{item.water_rate}}</text></view>            
+    </view>
+  <view class='content'>
+    <button formType="submit">提交</button>
+    <button formType="reset">重置</button>
+  </view>
+</form>

@@ -1,0 +1,10 @@
+/* pages/define/define.wxss */
+.content{
+  display: flex;
+  flex-direction: row;
+}
+.costwater
+{
+  width: 160rpx;
+  height: 20rpx;
+}
